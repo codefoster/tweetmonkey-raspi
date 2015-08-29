@@ -1,3 +1,6 @@
+# tweetmonkey-raspi
+The Raspberry Pi Raspian version of a hilariously simple maker project.
+
 ##Tweet Monkey
 Tweet Monkey is a hilariously simple maker project. The goal is to get you started in a very fun and rewarding area.
 
