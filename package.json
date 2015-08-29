@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "johnny-five": "^0.8.85",
-    "twitter": "^0.2.13"
+    "raspi-io": "^3.3.5",
+    "twitter": "^1.2.5"
   }
 }

@@ -23,13 +23,13 @@ board.on("ready", function() {
     var light = new five.Led("GPIO24");
     
     //monitor tweets by tracking a hash tag
-    twit.stream('filter', { track: '#tweetmonkey' }, function (stream) {
+    twit.stream('statuses/filter', { track: 'madison' }, function (stream) {
         //turn on an LED to indicate that we're waiting for a tweet
         light.on();
 
-        stream.on('data', function (data) {
+        stream.on('data', function (tweet) {
             //log the tweet to the screen so we can see it if we have a console
-            console.log('Tweet received from ' + data.user.screen_name + ': "' + data.text + '"');
+            console.log('Tweet received from ' + tweet.user.screen_name + ': "' + tweet.text + '"');
             
             //take the pin high to animate the monkey
             monkey.high();
