@@ -23,7 +23,7 @@ board.on("ready", function() {
     var light = new five.Led("GPIO24");
     
     //monitor tweets by tracking a hash tag
-    twit.stream('statuses/filter', { track: 'madison' }, function (stream) {
+    twit.stream('statuses/filter', { track: '#tweetmonkey' }, function (stream) {
         //turn on an LED to indicate that we're waiting for a tweet
         light.on();
 
