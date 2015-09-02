@@ -1,8 +1,7 @@
-# tweetmonkey-raspi
-The Raspberry Pi Raspian version of a hilariously simple maker project.
-
 ##Tweet Monkey
 Tweet Monkey is a hilariously simple maker project. The goal is to get you started in a very fun and rewarding area.
+
+This project is for the Raspberry Pi running Raspbian.
 
 This is the official code base for [tweetmonkey.io](http://tweetmonkey.io) where you'll find complete instructions for building your own Tweet Monkey.
 
